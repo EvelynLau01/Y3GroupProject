@@ -644,8 +644,6 @@ void runGP_HammingDecoder (GP_HammingDecoderStruct *GP_HammingDecoder, signalStr
   // uint8_t input_test[] =  {1, 0, 0, 0, 0, 1, 1};
   // uint8_t output_test[4];
   // hammingDecoder(GP_HammingDecoder, input_test, output_test);
-
-  // For changing the double type input array back to uint8 type
   uint8_t temp_input[7];
   for (i=0;i<GP_HammingDecoder->N;i++) {
     if (input[i] == (double) 1) {
